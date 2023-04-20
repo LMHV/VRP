@@ -2,5 +2,5 @@ from pydantic import BaseModel
 
 
 class BodyRequest(BaseModel):
-    coordenadas: list
+    matriz_distancia: list
     cant_vehiculos: int

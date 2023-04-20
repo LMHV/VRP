@@ -7,7 +7,7 @@ def create_model(body: BodyRequest):
 
     data = {}
     # Define la matriz de distancia
-    data['distance_matrix'] = body.coordenadas
+    data['distance_matrix'] = body.matriz_distancia
 
     """
     [
